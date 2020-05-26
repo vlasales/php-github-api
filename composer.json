@@ -36,7 +36,7 @@
 	},
 	"scripts": {
 		"test": "phpunit"
-	}
+	},
 	"autoload": {
 		"psr-4": { "Github\\": "lib/Github/" }
 	},
