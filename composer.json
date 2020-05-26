@@ -33,18 +33,21 @@
         "guzzlehttp/psr7": "^1.2",
         "cache/array-adapter": "^0.4",
         "phpstan/phpstan": "^0.12.23"
-    },
-    "autoload": {
-        "psr-4": { "Github\\": "lib/Github/" }
-    },
-    "autoload-dev": {
-        "psr-4": { "Github\\Tests\\": "test/Github/Tests/"}
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.15.x-dev"
-        }
-    }
+	},
+	"scripts": {
+		"test": "phpunit"
+	}
+	"autoload": {
+		"psr-4": { "Github\\": "lib/Github/" }
+	},
+	"autoload-dev": {
+		"psr-4": { "Github\\Tests\\": "test/Github/Tests/"}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"branch-alias": {
+			"dev-master": "2.15.x-dev"
+		}
+	}
 }
